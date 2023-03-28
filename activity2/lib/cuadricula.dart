@@ -20,29 +20,29 @@ class MyContainerWidget extends Container {
 }
 
 class HomePage extends StatelessWidget {
-  List<Container> ItemContainer = [
-    Container(
-        width: 200,
-        height: 300,
-        decoration: BoxDecoration(
-            color: Colors.pink,
-            border: Border.all(color: Colors.white, width: 1)),
-        child: Icon(Icons.adb_rounded)),
-    Container(
-        width: 200,
-        height: 300,
-        decoration: BoxDecoration(
-            color: Colors.greenAccent,
-            border: Border.all(color: Colors.white, width: 1)),
-        child: Icon(Icons.workspace_premium_rounded)),
-    Container(
-        width: 200,
-        height: 300,
-        decoration: BoxDecoration(
-            color: Colors.lime,
-            border: Border.all(color: Colors.white, width: 1)),
-        child: Icon(Icons.workspace_premium_rounded)),
-  ];
+  // List<Container> ItemContainer = [
+  //   Container(
+  //       width: 200,
+  //       height: 300,
+  //       decoration: BoxDecoration(
+  //           color: Colors.pink,
+  //           border: Border.all(color: Colors.white, width: 1)),
+  //       child: Icon(Icons.adb_rounded)),
+  //   Container(
+  //       width: 200,
+  //       height: 300,
+  //       decoration: BoxDecoration(
+  //           color: Colors.greenAccent,
+  //           border: Border.all(color: Colors.white, width: 1)),
+  //       child: Icon(Icons.workspace_premium_rounded)),
+  //   Container(
+  //       width: 200,
+  //       height: 300,
+  //       decoration: BoxDecoration(
+  //           color: Colors.lime,
+  //           border: Border.all(color: Colors.white, width: 1)),
+  //       child: Icon(Icons.workspace_premium_rounded)),
+  // ];
 
   @override
   Widget build(BuildContext context) {

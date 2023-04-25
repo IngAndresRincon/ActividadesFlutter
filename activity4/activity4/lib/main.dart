@@ -45,23 +45,23 @@ class HomePage extends StatelessWidget {
       child: Scaffold(
         extendBodyBehindAppBar: true,
         appBar: AppBar(
-          elevation: 10,
           backgroundColor: Colors.black87.withOpacity(0.7),
           toolbarTextStyle: TextStyle(),
-          title:
-              Align(alignment: Alignment.topRight, child: Icon(Icons.search)),
+          actions: [Icon(Icons.search)],
           leading: Container(
-            margin: EdgeInsets.only(left: 20, top: 0),
+            margin: EdgeInsets.only(left: 10, top: 0),
             child: Center(
               child: GestureDetector(
                 child: Image.asset(
+                  width: 15,
                   "assets/Netflixlogo.png",
                   fit: BoxFit.fill,
                 ),
               ),
             ),
           ),
-          bottom: TabBar(
+          bottom: 
+          TabBar(
             tabs: [
               Tab(
                   child: Text(
@@ -278,11 +278,9 @@ class HomePage extends StatelessWidget {
                   ),
                   Expanded(
                     child: Container(
-                      width: 600,
-                      height: 200,
                       decoration: BoxDecoration(color: Colors.black),
                       child: Center(
-                          child: Column(
+                          child: ListView(
                         children: [
                           Container(
                             alignment: Alignment.centerLeft,
